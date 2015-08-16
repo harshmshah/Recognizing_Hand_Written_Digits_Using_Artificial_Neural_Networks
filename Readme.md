@@ -15,17 +15,17 @@ Here’s the breakdown of what my program does:
 
 Please ensure that your program does not takes ~5 minutes to perform all of these tasks.
 
-Input :
+Input :  
 Input will be images of handwritten digits (0-9). All images will be 28x28, with each pixel having a greyscale value between 0-255. The images are all stored in a single binary file. The labels will be a list of integers, representing which digit is being shown in the image. The labels are all stored in a separate binary file. Both of these files begin with a few metadata integer values (number of images, number of rows/columns, etc.). 
 
-Output :
+Output :  
 Simply a list of the predicted values of each of the test images, as decided by the network. All this values are saved in output.txt. 
 
-Execution :
+Execution :  
 javac ArtificialNeuralNetwork.java
 java artificialneuralnetwork train-images train-labels test-images output.txt 
 
-Accuracy Achieved : 85%
+Accuracy Achieved : 85%  
 
 
 P.S. Please ensure that your program does not takes ~5 minutes to perform all of these tasks.
